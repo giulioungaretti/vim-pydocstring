@@ -1,4 +1,7 @@
 """{{_header_}}
 
-:param {{_args_}}:
+{{_indent_}}Args:
+{{_indent_}}{{_arg_}} :
+
+{{_indent_}}Returns:
 """
