@@ -12,7 +12,7 @@ command! -nargs=0 -buffer -complete=customlist,pydocstring#insert Pydocstring ca
 
 nnoremap <silent> <buffer> <Plug>(pydocstring) :call pydocstring#insert()<CR>
 if !hasmapto('<Plug>(pydocstring)')
-  nmap <silent> <C-l> <Plug>(pydocstring)
+  nmap <silent> <C-d> <Plug>(pydocstring)
 endif
 
 let &cpo = s:save_cpo
